@@ -6,7 +6,7 @@ namespace Cinch.SqlBulkCopyBuilder.Tests
 {
     public class SqlBulkCopyBuilderTests
     {
-        readonly string connStr = "Data Source=(LocalDB)\v11.0;";
+        readonly string connStr = "Data Source=(localdb)\\MSSQLLocalDB;Initial Catalog=master;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=True;ApplicationIntent=ReadWrite;MultiSubnetFailover=False";
 
         [Fact]
         public void EmptyBuilder()
